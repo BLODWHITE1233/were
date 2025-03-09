@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOXRATE HACKİNG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Giriş Animasyonu -->
+  <div id="splash-screen">
+    <h1>NOXRATE HACKİNG</h1>
+  </div>
+
+  <!-- Ana İçerik -->
+  <div id="main-content" style="display: none;">
+    <div class="sidebar">
+      <h2>NOXRATE</h2>
+      <ul>
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#log-bot">Log Bot</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <h1>NOXRATE HACKİNG</h1>
+      <p>Hizmetlerimizden yararlanabilirsiniz.</p>
+      <section id="log-bot">
+        <h2>Noxrate Hacking Log Botuma Hoş Geldiniz</h2>
+        <p>Log çekmek istediğiniz sitenin URL'sini giriniz:</p>
+        <input type="text" id="url-input" placeholder="URL girin">
+        <button onclick="fetchLogs()">Log Çek</button>
+        <pre id="log-output"></pre>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
